@@ -121,3 +121,5 @@ USE_TZ = True
 STATIC_URL = '/Next/static/'
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media') 
 MEDIA_URL = '/media/'
+
+ALLOWED_HOSTS = ['apu9.pythonanywhere.com']
